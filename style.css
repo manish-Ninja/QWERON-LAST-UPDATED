@@ -1,0 +1,27 @@
+body 
+{
+ background-image: linear-gradient(#f7e439 0%, #ecd865 100%);
+}
+*{scroll-behavior: smooth; -webkit-font-smoothing: subpixel-antialiased;}
+#mic_cont{margin-top: 0px;
+    margin-left: 550px;
+    height: 200px;
+    width: 250px;}
+#mic_btn{height:250px;width:250px;animation: mymove 2.5s infinite; box-shadow: 3px 3px 3px rgb(56, 54, 54);}/*#mic_btn:hover { height: 200px;  width: 200px;}*/
+#speed_btn{height:250px;width:250px; box-shadow: 3px 3px 3px rgb(56, 54, 54); font-family: 'Orbitron', sans-serif; font-size: 25px;}/*#mic_btn:hover { height: 200px;  width: 200px;}*/
+@keyframes mymove {
+    from 
+    { 
+        height: 200px;  
+        width: 200px;
+    }
+    to 
+    {
+        height: 250px;
+        width: 250px;
+    }
+}
+#textbox
+{
+    width: 300px;
+}
